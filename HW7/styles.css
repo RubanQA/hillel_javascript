@@ -1,0 +1,42 @@
+body {
+    background-color: #55aa55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 120px;
+    height: 180px;
+    border: 1px solid #353c4d;
+    border-radius: 10px;
+    background-color: white;
+    color: #353c4d;
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suit {
+    font-size: 24px;
+}
+
+.value {
+    font-size: 36px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
